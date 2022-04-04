@@ -6,19 +6,19 @@ public class Main {
          c.print_shape();
         c.area(3.00);
 
-        System.out.println();
+        System.out.println("===================");
 
         EquilateralTriangle equilateralTriangle=new EquilateralTriangle("Equilateral Triangle");
         equilateralTriangle.print_shape();
         equilateralTriangle.calculatesPerimeter(4);
 
-        System.out.println();
+        System.out.println("===================");
 
         IsocelesTriangle isocelesTriangle=new IsocelesTriangle("Isoceles Triangle");
         isocelesTriangle.print_shape();
         isocelesTriangle.calculatesPerimeter(12, 35);
 
-        System.out.println();
+        System.out.println("===================");
 
         ScaleneTriangle scaleneTriangle=new ScaleneTriangle("Scalene Triangle");
         scaleneTriangle.print_shape();
