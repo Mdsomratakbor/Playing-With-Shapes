@@ -8,6 +8,8 @@ public class MyOwnRoom {
     public static void main(String[] args) {
         ArrayList<Shape> shapes=new ArrayList<Shape>();
         String shapeType = "", color ="";
+
+
         boolean filled=false;
         double totalCircleArea = 0, totalRectangleArea=0, totalSquareArea = 0;
         String userInput;
